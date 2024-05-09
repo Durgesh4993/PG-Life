@@ -14,3 +14,8 @@ https://github.com/Durgesh4993/PG-Life/assets/98798977/287d0bce-16d4-4edc-a98d-7
 <img width="959" alt="Screenshot 2024-05-09 161219" src="https://github.com/Durgesh4993/PG-Life/assets/98798977/7c577f4d-0de8-4e96-814b-df7eea483f76">
 
 <img width="959" alt="Screenshot 2024-05-09 161244" src="https://github.com/Durgesh4993/PG-Life/assets/98798977/ad679f96-24e7-4755-aced-967cb5e13013">
+
+### About Us Page
+<img width="959" alt="Screenshot 2024-05-09 161308" src="https://github.com/Durgesh4993/PG-Life/assets/98798977/daa59d73-d069-4f88-a1f9-2807a7b9bc3d">
+
+
