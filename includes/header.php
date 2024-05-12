@@ -1,3 +1,21 @@
+<!-- Include Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Include jQuery and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript to initialize modals -->
+<script>
+    $(document).ready(function(){
+        // Initialize the login modal
+        $('#login-modal').modal();
+        
+        // Initialize the signup modal
+        $('#signup-modal').modal();
+    });
+</script>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <div class="header sticky-top">
     <nav class="navbar navbar-expand-md navbar-light">
@@ -11,30 +29,30 @@
         <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
             <ul class="navbar-nav">
                 <?php
-                //Check if user is loging or not
+                // Check if user is logging in or not
                 if (!isset($_SESSION["user_id"])) {
                 ?>
 
-                    <li class="nav-item" data-toggle="modal" data-target="#signup-modal">
+                    <li class="nav-item">
                         <a class="nav-link" href="../PG-Life/index.php">
                             <i class="bi bi-house-add"></i>Home
                         </a>
                     </li>
 
-                    <li class="nav-item" data-toggle="modal" data-target="#signup-modal">
+                    <li class="nav-item">
                         <a class="nav-link" href="../PG-Life/team.php">
                             <i class="bi bi-microsoft-teams"></i>Our Team
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../PG-Life/about.php" data-toggle="modal" data-target="#signup-modal">
+                        <a class="nav-link" href="../PG-Life/about.php">
                             <i class="bi bi-person-lines-fill"></i>About Us
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#signup-modal">
+                        <a class="nav-link" href="#">
                             <i class="bi bi-bookmark-plus-fill"></i>Add Property
                         </a>
                     </li>
