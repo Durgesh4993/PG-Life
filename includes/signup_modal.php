@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
+<!-- Signup Modal -->
 <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="signup-heading" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -17,7 +11,7 @@
             </div>
 
             <div class="modal-body">
-                <form id="signup-form" class="form" role="form" method="post" action="api/signup_submit.php">
+                <form id="signup-form" class="form" role="form" >
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text">
@@ -33,7 +27,7 @@
                                 <i class="fas fa-phone-alt"></i>
                             </span>
                         </div>
-                        <input type="text" class="form-control" name="phone" placeholder="Phone Number" maxlength="10" minlength="10" required>
+                        <input type="text" class="form-control" name="phone" placeholder="Phone Number (10 digit)" maxlength="10" minlength="10" required title="Valid 10 digit mobile number!" pattern="[6-9]{1}[0-9]{9}" >
                     </div>
 
                     <div class="input-group form-group">
@@ -88,5 +82,3 @@
         </div>
     </div>
 </div>
-</body>
-</html>

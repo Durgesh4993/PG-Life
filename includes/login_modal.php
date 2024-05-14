@@ -1,3 +1,5 @@
+
+<!-- Login Modal -->
 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-heading" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -9,7 +11,7 @@
             </div>
 
             <div class="modal-body">
-                <form id="login-form" class="form" role="form" method="post" action="api/login_submit.php">
+                <form id="login-form" class="form" role="form" action="/PGLIFE/api/login_submit.php" method="POST" >
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text">
