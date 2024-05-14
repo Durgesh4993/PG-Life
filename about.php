@@ -72,7 +72,7 @@ span{
 
 <section class="about-us">
     <div class="about">
-      <img src="img/logo.png" class="pic">
+      <img src="https://github.com/Durgesh4993/PG-Life/assets/98798977/65043d3f-e9a8-4bac-9ba6-e34a71346086" class="pic">
       <div class="text">
         <h2>About Us</h2>
         <h5>We Help You to Buy & <span>Rent Houses</span></h5>
